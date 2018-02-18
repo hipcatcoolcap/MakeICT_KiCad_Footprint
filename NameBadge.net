@@ -1,0 +1,32 @@
+(export (version D)
+  (design
+    (source /home/hipcat/nameBadge/NameBadge.sch)
+    (date "Fri 14 Apr 2017 06:25:48 PM CDT")
+    (tool "Eeschema 4.0.2+dfsg1-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source NameBadge.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref U1)
+      (value Logo)
+      (footprint KiCad:LOGO)
+      (libsource (lib 0001MyLIB) (part Logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58F13072)))
+  (libparts
+    (libpart (lib 0001MyLIB) (part Logo)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) Logo))))
+  (libraries
+    (library (logical 0001MyLIB)
+      (uri /home/hipcat/KiCad/0001MyLIB.lib)))
+  (nets))
